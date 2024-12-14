@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Kablammo&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Londrina+Solid:wght@100;300;400;900&family=Odibee+Sans&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playwrite+CU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Staatliches&family=Teko:wght@300..700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* LOGIN PAGE  */
+
+.loginpage{
+    height: 100vh;
+    background-color: white;
+    font-family: "Staatliches", serif;
+   
+}
+
+.loginpagetwo{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.loginpagetext{
+    width: 50%;
+    /* position: relative; */
+    text-align: center;
+}
+.loginpagetext img{
+    width: 500px;
+}
+
+.loginpagetext h1{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+}
+.loginpagetext p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+}
+.login label{
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+}
+.login input{
+    width: 400px;
+    border-radius: 5px 10px 5px 10px;
+    border-color: rgba(207, 202, 202, 0.378);
+    padding: 10px 5px;
+    background: transparent;
+    
+    color: #C3CEDA;
+}
+.loginbutton{
+    display: flex;
+    justify-content: center;    
+    margin-top: 10px;
+}
+.loginbutton button{
+    width: 400px;
+    border: none;
+    
+    border-radius: 4px;
+    padding: 5px 5px;
+    background-color: #C3CEDA;
+    margin-top: 10px;
+    color: #071330;
+}
+.loginbutton button:hover{
+    background-color: rgba(147, 173, 159, 0.955);
+}
+.loginpagelogin{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+.login{
+    border: 1px solid;
+    padding: 40px 40px;
+    border-radius: 50px 5px 50px 5px;
+    border-color: rgba(72, 200, 209, 0.837);
+    background-color: #071330;
+    color: #C3CEDA;
+}
+.login h1{
+    text-align: center;
+    margin: 0;
+}
+.login p{
+    margin: 0;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+}
+.loginicons i{
+    margin-right: 20px;
+}
+.loginicons{
+    text-align: center;
+    margin-top: 5px;
+}
+.loginicons p{
+    margin: 0;
+}
+span{
+    display: block;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+
+
+
+/* QUIZ HTML PAGE */
+
+.quizmainsub{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cartoon img{
+    width: 310px;
+    height: 200px;
+}
+.text{
+    border: 1px solid;
+    margin: 0 5px;
+    background-color: #071330;
+    border-radius: 50px 5px 50px 5px;
+    color: #C3CEDA;
+    padding: 20px 20px;
+
+}
+.toptext h1{
+    margin-bottom: 10px;
+}
+.enjoybtn button{
+    width: 150px;
+    text-align: center;
+    padding: 5px 0;
+    background-color: rgb(204, 238, 204);
+    border: none;
+    border-radius: 10px;
+}
+.enjoybtn button:hover{
+    background-color:rgb(128, 227, 128) ;
+}
+.enjoybtn{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* QUIZ AREA */
+
+.quizarea{
+    height: 100vh;
+    display: none;
+}
+.quizareabox{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.questions{
+    border: 1px solid;
+    border-radius: 3px 9px 3px 9px;
+    background-color:#071330;
+    color: #C3CEDA;
+    padding: 5px 5px;
+    margin-bottom: 20px;
+    width: 500px;
+}
+.answers{
+    /* border: 1px solid; */
+    border-radius: 5px;
+    /* background-color: rgb(228, 118, 98); */
+    /* color: white; */
+    /* margin-bottom: 20px; */
+    
+}
+.answers p{
+    width: 500px;
+    border: 1px solid;
+    /* border: none; */
+    border-radius: 5px 10px 5px 10px;
+    padding: 10px 5px;
+    background-color: #c3ceda6d;
+    color: #071330;
+}
+.answers p:hover{
+    background-color: #071330;
+    color: #C3CEDA;
+}
+#nextbtn{
+    background-color: #071330;
+    padding: 5px 50px;
+    border: none;
+    color: #C3CEDA;
+    border-radius: 5px;
+}
+.number p{
+    text-align: left;
+}
+
+
+
+.screboard{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 30px 30px;
+    background: url(https://images.pexels.com/photos/7349322/pexels-photo-7349322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(100px);
+    color: #071330;
+    font-family: "Staatliches", serif;
+}
+    
+.jishnu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tryagain{
+    border: none;
+    border-radius: 2px;
+    padding: 5px 10px;
+    background-color: #071330;
+    color: #C3CEDA;
+    margin-bottom: 5px;
+}
+.tyyy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    background: url(https://images.pexels.com/photos/4460729/pexels-photo-4460729.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+.jis{
+    color: black;
+}
+.noone{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+.scorespan{
+    color: red;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width:576px){
+    .loginpagetwo{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    .loginpagetext{
+        width: 100%;
+    }
+    .loginpagelogin{
+        width: 100%;
+        margin: 0;
+    }
+    .loginpagetext p{
+        display: none;
+    }
+    .login{
+        margin-left: 2px;
+    }
+    .text{
+        margin: 10px;
+    }
+    .cartoon img{
+        width: 250px;
+        height: 200px;
+    }
+    .jis{
+        color: white;
+    }
+    .questions{
+        width: 300px;
+    }
+    .answers p{
+        width: 300px;
+    }
+    
+    
+}
+
+
+@media screen and (max-width:768px){
+    .loginpagetwo{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    .loginpagetext{
+        width: 100%;
+    }
+    .loginpagelogin{
+        width: 100%;
+        margin: 0;
+    }
+    .loginpagetext p{
+        display: none;
+    }
+    .login{
+        margin-left: 2px;
+    }
+    .text{
+        margin: 10px;
+    }
+    .cartoon img{
+        width: 250px;
+        height: 200px;
+    }
+    .jis{
+        color: white;
+    }
+    .questions{
+        width: 300px;
+    }
+    .answers p{
+        width: 300px;
+    }
+
+}
